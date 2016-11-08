@@ -3421,7 +3421,8 @@ margin-left: auto;
 #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a:hover, #aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget .aa-footer-nav li a:focus {
   color: #fff;
 }
-#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p {
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p,
+#aa-footer .aa-footer-top .aa-footer-top-area .aa-footer-widget address p a {
   margin-bottom: 5px;
   color: #888;
 }
@@ -4318,8 +4319,9 @@ margin-left: auto;
 }
 
 .aa-logo img {
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 80%;
+  margin-left: 40px;
 }
 
 .aa-logo {
@@ -4348,4 +4350,36 @@ font-size: 14px;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.banner-job {
+  display: table;
+    width: 100%;
+    height: auto;
+    padding: 170px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/banner-job.png) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+h1, h2, h3 {
+  color: #a88c69;
+}
+
+
+#aa-footer .aa-footer-bottom .aa-footer-bottom-area > p a:hover, #aa-footer .aa-footer-bottom .aa-footer-bottom-area > p a:focus,
+.email-right a:hover, .email-right a:focus {
+  color : #a88c69 !important;
+}
+
+.job {
+  padding: 80px 0;
+}
+
+.job h2 {
+  margin-bottom: 40px;
 }
