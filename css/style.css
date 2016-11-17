@@ -1029,6 +1029,8 @@ img {
   display: inline;
   float: left;
   width: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 #aa-product .aa-product-area {
   display: inline;
@@ -4382,4 +4384,24 @@ h1, h2, h3 {
 
 .job h2 {
   margin-bottom: 40px;
+}
+
+.slogan {
+  margin-top: 20px;
+  color: #a88c69;
+  margin-left: 20px;
+}
+
+ul.aa-product-catg li {
+  box-shadow: 1px 6px 10px #ccc;
+    border: 1px solid #ccc;
+    border-radius: .2em;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 80px;
+}
+
+.aa-product-catg li figure {
+
+
 }
