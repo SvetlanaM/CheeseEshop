@@ -4344,7 +4344,7 @@ font-size: 14px;
   display: table;
     width: 100%;
     height: auto;
-    padding: 170px 0;
+    padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url(../img/banner.png) no-repeat bottom center scroll;
@@ -4401,7 +4401,103 @@ ul.aa-product-catg li {
     padding-bottom: 80px;
 }
 
-.aa-product-catg li figure {
+.banner-heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 40px;
+}
 
+.why-products {
+  padding: 70px 0;
+}
 
+.p-heading {
+  font-weight: bold;
+  margin-bottom: 30px;
+  font-size: 28px;
+}
+
+.c-desc,
+.c-desc1 {
+  color: #908f8f;
+}
+
+.p-heading2 {
+  color: #cba97e;
+  margin: 20px 0;
+  font-size: 20px;
+}
+
+.c-desc1 {
+  font-size: 15px;
+}
+
+.why-img {
+  width: 80%;
+  height: 70%;
+}
+
+.smothies-recipes {
+  background: #f4f4f4;
+  padding: 50px 0;
+  position: relative;
+}
+
+.recipe {
+  margin-top: 20px;
+  height: auto;
+  padding: 20px 40px;
+  border: 6px solid #d4d4d4;
+  background: #fff;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  top: 150px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin-bottom: -50px;
+}
+
+.top-sales {
+  margin-top: 100px;
+  padding-bottom: 100px;
+}
+
+.box {
+  margin-top: 50px;
+  padding: 20px 10px;
+  position: relative;
+  color: #fff;
+  background: #a88c69;
+  border: 4px solid #776146;
+}
+/*
+.green-box {
+  background: #F8D262;
+    height: auto;
+    background-size: cover;
+}
+
+.red-box {
+  background: #b9c95c;
+}
+
+.blue-box {
+  background: #fed835;
+}
+*/
+.box h5 {
+  font-size: 17px;
+  font-weight: bold;
+}
+.box p {
+  font-size: 14px;
+}
+
+.img-torta {
+  position: absolute;
+  width: 60%;
+  right: -40px;
+  bottom: 0px;
 }
